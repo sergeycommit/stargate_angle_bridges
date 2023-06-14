@@ -25,19 +25,20 @@ source .venv/bin/activate
 pip install web3
 ```
 
-  4. In the **main.py** file, on **line 379** inside the list, create a transaction to suit your needs. You can find an example of how to do this there as well.
-     Specify the number of min and max amounts for the transaction on **lines 393 and 394** in the **main.py**
-     Slippage - **line 400**. 
+  4. In the **main.py** file, on **line 619** inside the list, create a transaction to suit your needs. You can find an example of how to do this there as well.
+     Specify the number of min and max amounts for the transaction on **lines 663 and 664** in the **main.py**
+     Slippage - **line 673**. 
    > Put your private keys in private_keys.txt
 
   5. Now you're ready to start:
   ```
   python main.py
   ```
-  
+
 ### За angle_bridge донат можно сюда `0xe63F5DF79667BfAa7fE002382299d1a4F0a94AEE`
 
 ## 👨‍💻 All of my projects are available [here](https://github.com/ryu666zaki?tab=repositories)
 
 #### 🍩Donate: `0x27512edc51cAd8a5277090183858677915CC95c4`
-"# stargate_angle_bridges" 
+"# stargate_angle_bridges"
+
