@@ -41,7 +41,7 @@ class Chain:
 class Polygon(Chain):
     def __init__(self):
         super().__init__(
-            'https://rpc.ankr.com/polygon/e86fe895b18dc4920c2471c81b6984a2636aa25821d1a10863e7652f60597806',
+            'https://polygon-mainnet.g.alchemy.com/v2/lPMig0wM7-SlvrpdFoUJ2NacnLtID6qz',
             '0x45A01E4e04F14f7A4a6702c74187c5F6222033cd',
             '0x2791bca1f2de4661ed88a30c99a7a9449aa84174',
             '0xc2132d05d31c914a87c6611c10748aeb04b58e8f',
@@ -60,7 +60,7 @@ class Polygon(Chain):
 class Fantom(Chain):
     def __init__(self):
         super().__init__(
-            'https://rpc.ankr.com/fantom/e86fe895b18dc4920c2471c81b6984a2636aa25821d1a10863e7652f60597806',
+            'https://rpc.ftm.tools/',
             '0xAf5191B0De278C7286d6C7CC6ab6BB8A73bA2Cd6',
             '0x04068da6c83afcfa0e13ba15a6696662335d5b75',
             None,
@@ -73,7 +73,7 @@ class Fantom(Chain):
 class Bsc(Chain):
     def __init__(self):
         super().__init__(
-            'https://rpc.ankr.com/bsc/e86fe895b18dc4920c2471c81b6984a2636aa25821d1a10863e7652f60597806',
+            'https://bsc-dataseed1.defibit.io/',
             '0x4a364f8c717cAAD9A442737Eb7b8A55cc6cf18D8',
             None,
             '0x55d398326f99059fF775485246999027B3197955',
@@ -86,7 +86,7 @@ class Bsc(Chain):
 class Avax(Chain):
     def __init__(self):
         super().__init__(
-            'https://rpc.ankr.com/avalanche/e86fe895b18dc4920c2471c81b6984a2636aa25821d1a10863e7652f60597806',
+            'https://avalanche-c-chain.publicnode.com/',
             '0x45A01E4e04F14f7A4a6702c74187c5F6222033cd',
             '0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E',
             '0x9702230A8Ea53601f5cD2dc00fDBc13d4dF4A8c7',
@@ -99,7 +99,7 @@ class Arbitrum(Chain):
     def __init__(self):
         "rpc_url, stargate_address, usdc_address, usdt_address, chain_id, explorer_url"
         super().__init__(
-            'https://rpc.ankr.com/arbitrum/e86fe895b18dc4920c2471c81b6984a2636aa25821d1a10863e7652f60597806',
+            'https://rpc.ankr.com/arbitrum/',
             '0x53Bf833A5d6c4ddA888F69c22C88C9f356a41614',
             '0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8',
             '0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9',
@@ -112,7 +112,7 @@ class Optimism(Chain):
     def __init__(self):
         "rpc_url, stargate_address, usdc_address, usdt_address, chain_id, explorer_url"
         super().__init__(
-            'https://rpc.ankr.com/optimism/e86fe895b18dc4920c2471c81b6984a2636aa25821d1a10863e7652f60597806',
+            'https://rpc.ankr.com/optimism/',
             '0xB0D502E938ed5f4df2E681fE6E419ff29631d62b',
             '0x7F5c764cBc14f9669B88837ca1490cCa17c31607',
             '0x94b008aA00579c1307B0EF2c499aD98a8ce58e58',
@@ -125,7 +125,7 @@ class Gnosis(Chain):
     def __init__(self):
         "rpc_url, stargate_address, usdc_address, usdt_address, chain_id, explorer_url"
         super().__init__(
-            'https://rpc.ankr.com/gnosis/e86fe895b18dc4920c2471c81b6984a2636aa25821d1a10863e7652f60597806',
+            'https://rpc.ankr.com/gnosis/',
             '0xB0D502E938ed5f4df2E681fE6E419ff29631d62b',
             '0x7F5c764cBc14f9669B88837ca1490cCa17c31607',
             '0x94b008aA00579c1307B0EF2c499aD98a8ce58e58',
@@ -143,7 +143,7 @@ class Celo(Chain):
     def __init__(self):
         "rpc_url, stargate_address, usdc_address, usdt_address, chain_id, explorer_url"
         super().__init__(
-            'https://rpc.ankr.com/celo/e86fe895b18dc4920c2471c81b6984a2636aa25821d1a10863e7652f60597806',
+            'https://rpc.ankr.com/celo/',
             '0xB0D502E938ed5f4df2E681fE6E419ff29631d62b',
             '0x7F5c764cBc14f9669B88837ca1490cCa17c31607',
             '0x94b008aA00579c1307B0EF2c499aD98a8ce58e58',
