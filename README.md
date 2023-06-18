@@ -35,7 +35,9 @@ pip install web3
   python main.py
   ```
 
-### За angle_bridge донат можно сюда `0xe63F5DF79667BfAa7fE002382299d1a4F0a94AEE`
+6. Angle bridge release for Celo and Gnosis network. Change to your RPC.
+
+### angle_bridge донат можно сюда `0xe63F5DF79667BfAa7fE002382299d1a4F0a94AEE`
 
 ## 👨‍💻 All of my projects are available [here](https://github.com/ryu666zaki?tab=repositories)
 
